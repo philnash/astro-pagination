@@ -1,0 +1,15 @@
+{
+  "name": "@philnash/astro-pagination",
+  "version": "0.0.1",
+  "description": "A pagination component for Astro sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "astro",
+    "pagination"
+  ],
+  "author": "Phil Nash <philnash@gmail.com> (https://philna.sh/)",
+  "license": "MIT"
+}
