@@ -2,14 +2,24 @@
   "name": "@philnash/astro-pagination",
   "version": "0.0.1",
   "description": "A pagination component for Astro sites",
-  "main": "index.js",
+  "main": "src/components/Pagination.astro",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && c8 node --test",
+    "build": "tsc"
   },
   "keywords": [
     "astro",
     "pagination"
   ],
   "author": "Phil Nash <philnash@gmail.com> (https://philna.sh/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "c8": "^7.13.0",
+    "typescript": "^5.0.4"
+  }
 }
